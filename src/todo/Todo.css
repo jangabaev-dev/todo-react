@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.todoo{
+    position: relative;
+}
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+.todo-head{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: "Gill Sans MT";
+    color: gray;
+    font-size: 40px;
+}
+.todo-btn button{
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #646ff0;
+    color: white;
+}
+.todo-block{
+    background: #eaeaea;
+    padding: 30px 20px;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+.todo-block p{
+    background: #c5c5c5;
+    border-radius: 15px;
+    padding: 10px;
+    width: 100px;
+}
+.hide-block{
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    display: flex;
+    top: 130px;
+}
+.hide-block-bg{
+    background: #c5c1c1;
+    width: 500px;
+    height: 370px;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.hide-block-bg h1{
+    color: #646681;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+#title{
+    background-color: white;
+    border: none;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+    padding: 1rem;
+    width: 100%;
+}
+#status{
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+    padding: 1rem;
+    width: 100%;
+}
+.hide-block-sellect{
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-start;
+}
+#add{
+    background: blue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+#cancel{
+    background: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    color: gray;
+}
